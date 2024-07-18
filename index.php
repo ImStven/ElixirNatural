@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <title>Elixires Naturales</title>
+</head>
+
+<body>
+
+   
+    <header class="header">
+        <div class="menu container">
+            <a class="logo" href="#">Logo</a>
+            <input type="checkbox" id="menu">
+            <label for="menu-toggle" class="menu-icon">
+                <i class="fas fa-bars"></i> <!-- Ícono del menú (usando Font Awesome) -->
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="">Inicio</a></li>
+                    <li><a href="">Nosotros</a></li>
+                    <li><a href="">Contacto</a></li>
+                    <li><a href="">Productos</a></li>
+                    <li><a href="">Precio</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="header-content container">
+            <h1>ELIXIRES NATURALES</h1>
+            <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi maiores dolores, vero sapiente ducimus
+                quibusdam, fugit architecto facilis, consectetur porro atque autem placeat molestiae saepe sint
+                asperiores ullam beatae sequi!</P>
+            <a href="#" class="btn-1">Nosotros</a>
+        </div>
+    </header>
+
+    <section class="elixir">
+        <img class="elixir-img" src="" alt="#">
+        <div class="elixir-content container">
+            <h2>Los diferentes tipos de bebidas</h2>
+            <p class="txt-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur veritatis debitis eum
+                autem obcaecati beatae ut, itaque ipsam aperiam commodi suscipit laudantium blanditiis nesciunt
+                accusantium, ducimus dolore dolor illo? Perspiciatis!</p>
+                
+            <div class="elixir-group">
+                <div class="elixir-1">
+                    <img src="" alt="#">
+                    <h3>Titulo</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, id culpa ipsa iusto error,
+                        itaque cum debitis perspiciatis amet laborum inventore, temporibus omnis architecto quod ex
+                        placeat quidem? Tenetur, magnam!</p>
+                </div>
+                <div class="elixir-1">
+                    <img src="" alt="#">
+                    <h3>Titulo</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, id culpa ipsa iusto error,
+                        itaque cum debitis perspiciatis amet laborum inventore, temporibus omnis architecto quod ex
+                        placeat quidem? Tenetur, magnam!</p>
+                </div>
+                <div class="elixir-1">
+                    <img src="" alt="#">
+                    <h3>Titulo</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, id culpa ipsa iusto error,
+                        itaque cum debitis perspiciatis amet laborum inventore, temporibus omnis architecto quod ex
+                        placeat quidem? Tenetur, magnam!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main class="services">
+        <div class="services-content container">
+            <h2>Servicios</h2>
+
+            <div class="services-group">
+                <div class="services-1">
+                    <img src="" alt="#">
+                    <h3>Servicio 1</h3>
+                </div>
+                <div class="services-1">
+                    <img src="" alt="#">
+                    <h3>Servicio 2</h3>
+                </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quibusdam accusantium laborum deleniti, culpa recusandae expedita odio quis commodi ullam ducimus optio harum natus ad. Recusandae odit deserunt beatae consequuntur!</p>
+            <a href="#" class="btn-1">Informacion</a>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content container">
+            <div class="link">
+                <h3>Contactenos</h3>
+            <p>231293192392</p>
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.6044647042904!2d-75.28592602524972!3d2.9294620544642824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3b747aaa939403%3A0x3b1f952d44bbd01a!2sCesalud!5e0!3m2!1ses!2sco!4v1720616782305!5m2!1ses!2sco" width="100%" height="220" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div class="link">
+                <h3>Informacion</h3>
+                <a href="">Quienes Somos</a>
+            </div>
+        </div>
+    </footer> 
+</body>
+
+</html>
